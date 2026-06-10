@@ -20,6 +20,8 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pkg-config libudev-dev    
+    - name: Rust Cache
+      uses: swatinem/rust-cache@v2
     - name: Build
       run: cargo build --verbose
     - name: Run tests
