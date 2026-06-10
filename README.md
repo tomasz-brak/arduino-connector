@@ -20,5 +20,7 @@ Add your user to the uucp group to interact with serial devices without `sudo`
 ```bash
 sudo usermod -aG uucp $USER
 ```
-```
+
+# Note on cross-compatibility
+While this tool was developed primary for use on linux the goal is full compatibility with other os's.
 
