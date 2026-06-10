@@ -11,7 +11,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .filter_level(log::LevelFilter::Debug)
         .init();
 
-    info!("ArduinoConnector initalized successfuly!");
+    info!("ArduinoConnector initalized successfuly! - This software is HIGHLY EXPERIMENTAL");
 
     let subcommand = cli.command.as_runnable();
 
